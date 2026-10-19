@@ -44,10 +44,10 @@ The test suite covers encoding round trips, the metadata ranking heuristic, XAI 
 
 - [Technical architecture](docs/ARCHITECTURE.md)
 - [Mathematical models and assumptions](docs/MATHEMATICAL_MODELS.md)
-- [Static project landing page](https://felipetjmg1-bit.github.io/projeto-ybyra/)
+- [Static landing page source](docs/index.html)
 - [Diagram sources and illustrations](docs/ASSETS/)
 
-The static landing page is hosted on GitHub Pages. Vercel, Netlify, and Hugging Face are not connected in this session.
+The repository contains a static landing page and starter configuration for Vercel and Netlify, but no hosted site is active. GitHub Pages could not be enabled with the current integration permissions. Vercel, Netlify, and Hugging Face are not connected in this session.
 
 ## License
 

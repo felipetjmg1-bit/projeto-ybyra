@@ -104,7 +104,7 @@ src/quantum_mesh/
 tests/
 ```
 
-Os fontes editáveis Mermaid para os diagramas ficam em `docs/ASSETS/*.mmd`. A imagem do banner é uma ilustração conceitual. As referências visuais não usam marcas oficiais do governo. O CI template não é executado pelo GitHub Actions enquanto não for instalado em `.github/workflows/` com a permissão apropriada.
+Os fontes editáveis Mermaid para os diagramas ficam em `docs/ASSETS/*.mmd`. A imagem do banner é uma ilustração conceitual. A landing page estática fica em `docs/index.html`, mas ainda não está hospedada. As referências visuais não usam marcas oficiais do governo. O CI template não é executado pelo GitHub Actions enquanto não for instalado em `.github/workflows/` com a permissão apropriada.
 
 ## 8. Contribuição
 
