@@ -4,6 +4,8 @@
 
 # Projeto Ybyrá — Árvore-Mãe
 
+**[English version](README.en.md)**
+
 <p align="center">
   <a href="https://www.python.org/"><img alt="Python 3.10+" src="https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white"></a>
   <img alt="Quantum" src="https://img.shields.io/badge/Quantum-simulation-6F42C1">
