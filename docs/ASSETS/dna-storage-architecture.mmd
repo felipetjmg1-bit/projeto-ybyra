@@ -1,0 +1,18 @@
+flowchart TB
+    A[Bytes de entrada] --> B[Bloco curto + metadados de tamanho]
+    B --> C{Paridade RS opcional?}
+    C -->|Sim| D[Reed–Solomon sobre GF 2^8]
+    C -->|Não| E[Bytes sem correção]
+    D --> F[Fluxo binário em pares]
+    E --> F
+    F --> G[00 → A · 01 → C · 10 → G · 11 → T]
+    G --> H[Sequência textual A/C/G/T]
+    H --> I[Decodificação reversível no software]
+    H -. hipótese futura, não validada .-> J[Pesquisa sobre mídia DNA]
+    J -. fora do código e sem protocolo .-> K[Hipóteses de armazenamento vegetal/biológico]
+    K --> L[Revisão independente de biossegurança, ética e legislação]
+    style A fill:#16324f,color:#fff
+    style H fill:#0b6e69,color:#fff
+    style J fill:#725b2e,color:#fff
+    style K fill:#725b2e,color:#fff
+    style L fill:#7b3030,color:#fff

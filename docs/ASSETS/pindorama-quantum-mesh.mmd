@@ -1,0 +1,25 @@
+flowchart TB
+    subgraph SIM[Protótipo local executável]
+      direction TB
+      A[Bits e bases aleatórios] --> B[Simulação BB84 clássica]
+      B --> C[Comparação pública de bases]
+      C --> D[Estimativa QBER]
+      D --> E{Acima do limiar didático?}
+      E -->|Sim| F[Alerta da simulação]
+      E -->|Não| G[Resultado de teste]
+      H[Dados fictícios] --> I[Raiz e prova simples de inclusão Merkle]
+    end
+    subgraph FUTURO[Propostas não implementadas ou autorizadas]
+      direction TB
+      J[Enlace óptico espaço–Terra ou LEO]
+      K[Instituições e infraestrutura oficiais]
+      L[Integração em piloto Drex autorizado]
+      M[Prova ZK-STARK real e verificada]
+      J -. requer estudo e autorização .-> K
+      K -. depende de processo oficial .-> L
+    end
+    F -. não conecta .-> J
+    G -. não conecta .-> K
+    I -. não é STARK .-> M
+    style SIM fill:#eaf5f4,stroke:#0b6e69
+    style FUTURO fill:#fff4e4,stroke:#a66b16

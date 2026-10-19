@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Projeto Ybyrá: protótipo aberto de demonstrações em DNA storage, XAI, BB84 e Merkle.">
+  <meta name="theme-color" content="#071b20">
+  <title>Projeto Ybyrá — protótipo de pesquisa</title>
+  <style>
+    :root{color-scheme:dark;--bg:#071b20;--panel:#10282b;--green:#84d7a0;--mint:#b9f3d0;--text:#f3f7f4;--muted:#b2c4bd;--line:#33514a}
+    *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:16px/1.65 system-ui,-apple-system,Segoe UI,sans-serif}
+    header{min-height:68vh;display:grid;align-items:end;padding:4rem max(6vw,1.5rem);background:linear-gradient(90deg,rgba(4,18,23,.9),rgba(4,18,23,.28)),url('ASSETS/ybyra-banner.png') center 48%/cover}
+    .hero{max-width:820px}h1{font-size:clamp(2.7rem,7vw,5.8rem);line-height:1.02;margin:.2em 0;color:var(--mint);letter-spacing:-.045em}h2{font-size:1.7rem;color:var(--mint)}p{max-width:75ch;color:var(--muted)}.eyebrow{text-transform:uppercase;letter-spacing:.16em;color:var(--green);font-weight:700}.pill{display:inline-block;border:1px solid #e3b86c;border-radius:999px;padding:.22rem .7rem;color:#ffe0a4;font-size:.84rem}
+    main{max-width:1120px;margin:auto;padding:2rem 1.5rem 5rem}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1rem}.card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:1.25rem}.card h3{margin:.2rem 0;color:var(--mint)}a{color:#9ee7c2}a:hover{color:#d0ffe4}.notice{border-left:4px solid #e3b86c;background:#1c2927;padding:1rem 1.2rem;margin:2rem 0}.links{display:flex;gap:1rem;flex-wrap:wrap;margin-top:1.5rem}.button{display:inline-block;background:#c4f3d2;color:#08201a;padding:.75rem 1rem;border-radius:8px;text-decoration:none;font-weight:700}.button.secondary{background:transparent;border:1px solid var(--line);color:var(--text)}footer{border-top:1px solid var(--line);padding:1.5rem;color:var(--muted)}
+  </style>
+</head>
+<body>
+<header><div class="hero"><div class="eyebrow">Protótipo aberto · pesquisa conceitual</div><h1>Projeto Ybyrá</h1><p>Uma coleção de demonstrações de software que explora codificação inspirada em DNA storage, explicabilidade, sinais MEA sintéticos e protocolos criptográficos simulados.</p><span class="pill">Não é sistema operacional biológico nem infraestrutura quântica implantada</span><div class="links"><a class="button" href="https://github.com/felipetjmg1-bit/projeto-ybyra">Ver repositório</a><a class="button secondary" href="ARCHITECTURE.md">Arquitetura</a><a class="button secondary" href="MATHEMATICAL_MODELS.md">Modelos matemáticos</a></div></div></header>
+<main>
+  <section><h2>O que está implementado</h2><div class="grid">
+    <article class="card"><h3>Codificação digital</h3><p>Mapeamento reversível de pares de bits em A/C/G/T com paridade Reed–Solomon opcional para pequenos blocos. Sem síntese ou transformação biológica.</p></article>
+    <article class="card"><h3>Explicabilidade e sinais</h3><p>Regressão logística didática com contribuições explícitas e detecção heurística de picos negativos em sinais numéricos.</p></article>
+    <article class="card"><h3>Simulação e hashes</h3><p>Simulação clássica simplificada de BB84 e prova de inclusão Merkle para dados fictícios. Não é QKD real nem ZK-STARK.</p></article>
+  </div></section>
+  <aside class="notice"><strong>Limites institucionais:</strong> não há integração, parceria ou endosso informado pela AEB, Ministério da Defesa ou Banco Central. O código não se conecta ao Drex. “Soberania” é objetivo de pesquisa, não garantia técnica ou jurídica. A empresa e autoria citadas no README foram informadas pelo solicitante.</aside>
+  <section><h2>Contexto</h2><p>O projeto dialoga tematicamente com o PBIA 2024–2028, sem ser iniciativa oficial do plano. A página do Banco Central descreve o Drex como piloto de testes; este repositório não participa desse piloto.</p><p><a href="https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/transformacaodigital/plano-brasileiro-de-inteligencia-artificial">PBIA — MCTI</a> · <a href="https://www.bcb.gov.br/estabilidadefinanceira/piloto-drex">Piloto Drex — BCB</a> · <a href="https://www.nsa.gov/Cybersecurity/Quantum-Key-Distribution-QKD-and-Quantum-Cryptography-QC/">Limitações da QKD — NSA</a></p></section>
+  <section><h2>Licença e reprodutibilidade</h2><p>Código sob MIT. Os exemplos são locais, pequenos e reproduzíveis; consulte o README para instalação, testes e limites do modelo.</p></section>
+</main>
+<footer><div>Projeto Ybyrá · documento conceitual · última atualização: 2026</div></footer>
+</body>
+</html>
