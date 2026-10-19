@@ -40,4 +40,4 @@ O protótipo não coleta telemetria nem transmite dados. Inputs não confiáveis
 
 ## CI
 
-O workflow `.github/workflows/CI-CD-Deploy.yml` instala as dependências declaradas e executa os testes unitários em push e pull request. O pipeline valida o código; ele não publica um artefato de produção nem ativa integração com provedor externo. A ativação futura de Vercel, Netlify ou Hugging Face depende de conectar e autorizar os respectivos serviços.
+Os nove testes unitários passaram localmente. O repositório publicado ainda não tem GitHub Actions ativo. O arquivo `docs/CI-CD-Deploy.template.yml` é um modelo revisável para instalação posterior em `.github/workflows/`; até essa etapa, nenhum pipeline é executado em push ou pull request. O modelo apenas instala dependências e roda testes, sem publicar um artefato de produção. A publicação futura em Vercel, Netlify ou Hugging Face depende de conectar e autorizar os respectivos serviços.

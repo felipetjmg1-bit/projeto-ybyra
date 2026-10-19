@@ -14,7 +14,7 @@
   <img alt="Impulso Digital Soluções em I.A." src="https://img.shields.io/badge/Impulso%20Digital-Solu%C3%A7%C3%B5es%20em%20I.A.-143d2a">
 </p>
 
-> **Status:** protótipo de software em estágio inicial. Não há hardware biológico, enlace QKD orbital, prova STARK, integração com DREX, parceria institucional ou validação de segurança neste repositório. Os diagramas representam conceitos e componentes simulados, não sistemas implantados.
+> **Status:** protótipo de software em estágio inicial. Não há hardware biológico, enlace QKD orbital, prova STARK, integração com DREX, parceria institucional ou validação de segurança neste repositório. Os diagramas representam conceitos e componentes simulados, não sistemas implantados. O workflow de GitHub Actions ainda não está ativo; há um modelo revisável em `docs/CI-CD-Deploy.template.yml`.
 
 O Ybyrá reúne demonstrações educacionais de codificação digital inspirada em DNA storage, análise explicável simples, detecção de eventos em traços MEA sintéticos, simulação BB84 e provas de inclusão Merkle. O objetivo de pesquisa informado é investigar tecnologias de computação e segurança com autonomia técnica e responsabilidade ambiental. O nome, o banner e a arquitetura são conceituais.
 
@@ -89,7 +89,7 @@ A demonstração de Reed–Solomon tem limite de bloco documentado no código. O
 ## 7. Estrutura
 
 ```text
-.github/workflows/CI-CD-Deploy.yml
+docs/CI-CD-Deploy.template.yml
 README.md
 LICENSE
 requirements.txt
@@ -102,7 +102,7 @@ src/quantum_mesh/
 tests/
 ```
 
-Os fontes editáveis Mermaid para os diagramas ficam em `docs/ASSETS/*.mmd`. A imagem do banner é uma ilustração conceitual. As referências visuais não usam marcas oficiais do governo.
+Os fontes editáveis Mermaid para os diagramas ficam em `docs/ASSETS/*.mmd`. A imagem do banner é uma ilustração conceitual. As referências visuais não usam marcas oficiais do governo. O CI template não é executado pelo GitHub Actions enquanto não for instalado em `.github/workflows/` com a permissão apropriada.
 
 ## 8. Contribuição
 
