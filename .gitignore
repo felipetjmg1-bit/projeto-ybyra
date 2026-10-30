@@ -6,3 +6,13 @@ venv/
 .DS_Store
 .coverage
 htmlcov/
+
+# Arquivos locais e artefatos de desenvolvimento
+Thumbs.db
+*.log
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+dist/
+build/
+!.env.example

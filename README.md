@@ -4,6 +4,8 @@
 
 # Projeto Ybyrá — Árvore-Mãe
 
+![Status: Demonstração](https://img.shields.io/badge/Status-Demonstração-blue) | [![Licença MIT](https://img.shields.io/github/license/felipetjmg1-bit/projeto-ybyra)](LICENSE) | [![Patrocinar](https://img.shields.io/badge/Sponsor-GitHub%20Sponsors-ea4aaa?logo=githubsponsors)](https://github.com/sponsors/felipetjmg1-bit)
+
 **[English version](README.en.md)**
 
 <p align="center">
@@ -11,7 +13,6 @@
   <img alt="Quantum" src="https://img.shields.io/badge/Quantum-simulation-6F42C1">
   <img alt="DNA computing" src="https://img.shields.io/badge/DNA-computing%20concept-218838">
   <img alt="Aurora XAI" src="https://img.shields.io/badge/Aurora-XAI%20prototype-0E7490">
-  <a href="LICENSE"><img alt="MIT License" src="https://img.shields.io/badge/License-MIT-green.svg"></a>
   <img alt="Soberania" src="https://img.shields.io/badge/Soberania-objetivo%20de%20pesquisa-8A5A00">
   <img alt="Impulso Digital Soluções em I.A." src="https://img.shields.io/badge/Impulso%20Digital-Solu%C3%A7%C3%B5es%20em%20I.A.-143d2a">
 </p>
@@ -108,7 +109,15 @@ Os fontes editáveis Mermaid para os diagramas ficam em `docs/ASSETS/*.mmd`. A i
 
 ## 8. Contribuição
 
+Leia também [CONTRIBUTING.md](CONTRIBUTING.md).
+
 Abra uma issue para discutir escopo e limites antes de propor alegações de integração, desempenho ou segurança. Contribuições devem acrescentar testes reproduzíveis, explicitar hipóteses e evitar dados sensíveis. Não envie sequências biológicas, dados pessoais ou segredos. Mudanças em componentes com aplicação biológica, financeira ou de segurança precisam de avaliação especializada antes de qualquer uso fora de simulação.
+
+## Patrocínio e apoio
+
+O desenvolvimento aberto exige tempo para manutenção, documentação, testes, revisão de contribuições e resposta a issues. Se este projeto for útil para você ou sua organização, considere apoiar o mantenedor pelo [GitHub Sponsors](https://github.com/sponsors/felipetjmg1-bit). O apoio ajuda a sustentar a continuidade do trabalho; não representa promessa de funcionalidades, prazo de entrega ou suporte comercial.
+
+[![Patrocinar felipetjmg1-bit](https://img.shields.io/badge/Patrocinar%20no-GitHub%20Sponsors-ea4aaa?logo=githubsponsors)](https://github.com/sponsors/felipetjmg1-bit)
 
 ## Licença
 
