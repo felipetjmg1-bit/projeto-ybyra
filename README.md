@@ -14,7 +14,7 @@
   <img alt="DNA computing" src="https://img.shields.io/badge/DNA-computing%20concept-218838">
   <img alt="Aurora XAI" src="https://img.shields.io/badge/Aurora-XAI%20prototype-0E7490">
   <img alt="Soberania" src="https://img.shields.io/badge/Soberania-objetivo%20de%20pesquisa-8A5A00">
-  <img alt="Impulso Digital Soluções em I.A." src="https://img.shields.io/badge/Impulso%20Digital-Solu%C3%A7%C3%B5es%20em%20I.A.-143d2a">
+  <img alt="Impulso Digital Soluções em IA" src="https://img.shields.io/badge/Impulso%20Digital-Solu%C3%A7%C3%B5es%20em%20I.A.-143d2a">
 </p>
 
 > **Status:** protótipo de software em estágio inicial. Não há hardware biológico, enlace QKD orbital, prova STARK, integração com DREX, parceria institucional ou validação de segurança neste repositório. Os diagramas representam conceitos e componentes simulados, não sistemas implantados. O workflow de GitHub Actions ainda não está ativo; há um modelo revisável em `docs/CI-CD-Deploy.template.yml`.
@@ -25,7 +25,7 @@ A relação com o **Plano Brasileiro de Inteligência Artificial (PBIA) 2024–2
 
 ## Responsabilidade e autoria informadas
 
-Empresa responsável informada na especificação: **Impulso Digital Soluções em I.A. Ltda.** Autor/arquiteto principal informado: **Felipe Aquino (Fundador e CEO / Chief AI Architect)**. Essas atribuições foram fornecidas junto à solicitação e não foram verificadas independentemente. A publicação do código não constitui chancela da AEB, do Ministério da Defesa, do Banco Central, do Drex, nem de qualquer órgão público.
+Empresa responsável informada na especificação: **Impulso Digital Soluções em IA** Autor/arquiteto principal informado: **Felipe Aquino (Fundador e CEO / Chief AI Architect)**. Essas atribuições foram fornecidas junto à solicitação e não foram verificadas independentemente. A publicação do código não constitui chancela da AEB, do Ministério da Defesa, do Banco Central, do Drex, nem de qualquer órgão público.
 
 ## 1. Visão executiva e soberania tecnológica
 
