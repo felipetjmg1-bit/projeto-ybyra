@@ -1,4 +1,7 @@
 <p align="center">
+
+<p align="center"><img src="PROJECT-OVERVIEW.svg" alt="Diagrama de funcionalidades de Projeto Ybyrá" width="100%"></p>
+
   <img src="docs/ASSETS/ybyra-banner.png" alt="Ilustração conceitual de árvores brasileiras e circuitos de luz" width="100%">
 </p>
 
