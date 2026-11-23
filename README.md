@@ -133,3 +133,8 @@ O código está sob a licença MIT. “Soberania” é objetivo de pesquisa e n�
 [2] [Piloto Drex, Banco Central do Brasil](https://www.bcb.gov.br/estabilidadefinanceira/piloto-drex).
 
 [3] [Quantum Key Distribution and Quantum Cryptography, NSA](https://www.nsa.gov/Cybersecurity/Quantum-Key-Distribution-QKD-and-Quantum-Cryptography-QC/).
+
+
+## Fluxo passo a passo
+
+Consulte o [guia textual com as etapas do projeto](docs/PROCESSO-PASSO-A-PASSO.md). O infográfico acima resume visualmente o mesmo fluxo.
